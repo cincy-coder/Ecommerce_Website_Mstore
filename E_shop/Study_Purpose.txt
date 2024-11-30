@@ -1,0 +1,16 @@
+Add templates folder
+Add static folder
+
+******settings.py******
+
+Add app to installed apps
+
+Templates in DIRS
+
+STATIC_URL = '/static/'
+STATIC_URL ='/static'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static')
+]
+
+

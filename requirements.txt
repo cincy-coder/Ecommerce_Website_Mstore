@@ -1,0 +1,10 @@
+python -m venv .venv                #Creating virtual Environment
+.venv\scripts\activate              #To activate virtual Environment
+
+python -m pip install Django        # Install django
+
+django-admin startproject  E_shop   #Create Project
+cd E_hop                            #Change directory
+python manage.py startapp store_app #Create App
+
+python manage.py runserver          # to run the server
